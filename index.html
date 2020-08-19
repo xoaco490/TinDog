@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- FONTS MONTSERRAT && UBUNTU-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <!-- CDN BOOTSTRAPV4.5-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- BOOTSTRAP JQUERY/JS ETC SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <!-- FONTAWASOME KIT JS-->
+  <script src="https://kit.fontawesome.com/bc6aa09ba8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tinperro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Descargar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="montitle">Conoce nuevos y interesantes perros cerca.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+            Descargar</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Descargar</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Muy facil de usar.</h3>
+          <p>Tan facil, que hasta tu perro podria hacerlo.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Cientela de elite.</h3>
+          <p>Tenemos todos los perros, los mejores perros.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Función garantizada.</h3>
+          <p>Encuentra el alma gemela de tu perro o te devolvemos tu dinero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Ya no tengo que olfatear para encontar mi amor. Encontre el mejor corgi en
+            TinPerro. Woof.</h2>
+          <img class="testimonial-img " src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid ">
+          <h2 class="testimonial-text">Mi perro solia estar tan solo, pero con la ayuda de TinPerro, encontro el amor de
+            su vida. Creo.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Acorde a las necesidades de cada perro.</h2>
+    <p>Precios de planes simples y accesibles para ti y tu perro.</p>
+    <div class="row">
+      <div class="pricing-col col-lg-4 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-title">Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Gratis</h2>
+            <p>5 Matches Por Dia</p>
+            <p>10 Mensajes Por Dia</p>
+            <p>Uso Ilimitado Del App</p>
+            <button type="button" class="btn-lg btn-block btn-outline-dark">Añadir al Carrito</button>
+            <!-- btn-lg boton largo btn-block toma todo el width-->
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-col col-lg-4 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-title">Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mes</h2>
+            <p>Matches Ilimitados</p>
+            <p>Mensajes Ilimitados</p>
+            <p>Uso Ilimitado Del App</p>
+            <button type="button" class="btn-lg btn-block btn-dark">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-col col-lg-4 ">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-title">Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mes</h2>
+            <p>Prioridad De Listado</p>
+            <p>Matches Ilimitados</p>
+            <p>Mensajes Ilimitados</p>
+            <p>Uso Ilimitado Del App</p>
+            <button type="button" class="btn-lg btn-block btn-dark">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="montitle">Encuentra la media naranja de tu perro hoy.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Descargar</button>
+      <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i>
+        Descargar</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <p>© Copyright 2020 TinPerro</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
